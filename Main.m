@@ -24,7 +24,7 @@ while running
     if new_run
         fprintf('Old run: %s\n', run_id)
         run_id = input("Run ID: ", "s");
-        ESP_Maria(p_id, run_id)
+        ESP(p_id, run_id)
     else
         running = 0;
     end
