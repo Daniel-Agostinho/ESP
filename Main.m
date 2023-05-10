@@ -15,7 +15,7 @@ fprintf('Participant setup\n')
 p_id = input("Participant ID: ", "s");
 run_id = input("Run ID: ", "s");
 
-ESP_Maria(p_id, run_id)
+ESP(p_id, run_id)
 running = 1;
 
 while running
